@@ -1,7 +1,7 @@
 import { BrowserRouter , Route, Routes } from 'react-router-dom';
 import Login from './Components/Login';
 import SignUp from './Components/SignUp';
-import UpdatePwr from './Components/updatePwr';
+import UpdatePwr from './Components/UpdatePwr';
 import SendLink from './Components/SendLink';
 import NotFound from './Components/notFound';
 import NavBar from './Components/NavBar';
