@@ -17,7 +17,7 @@ const UpdatePwr = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:5001/api/update",
+        "https://passwordrstbe.onrender.com/api/update",
         {
           "token" : mailtoken,
           "password": password,
