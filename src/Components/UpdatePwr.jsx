@@ -1,14 +1,14 @@
-import React, { UseState } from 'react';
-import { UseParams } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 const UpdatePwr = () => {
 
-   const [password, setpassword] = UseState("");
-   const [cnfpassword, setcnfpassword] = UseState("");
+   const [password, setpassword] = useState("");
+   const [cnfpassword, setcnfpassword] = useState("");
   
 
-  const { token } = UseParams(); 
+  const { token } = useParams(); 
 
   const mailtoken = token;
   console.log(mailtoken);
