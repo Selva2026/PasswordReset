@@ -10,7 +10,7 @@ const sendLink = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:5001/api/reset",
+        "https://passwordrstbe.onrender.com/api/reset",
         {
           "email": email
         }
