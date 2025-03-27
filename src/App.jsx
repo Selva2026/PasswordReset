@@ -3,7 +3,7 @@ import Login from './Components/Login';
 import SignUp from './Components/SignUp';
 import UpdatePwr from './Components/UpdatePwr';
 import SendLink from './Components/SendLink';
-import NotFound from './Components/notFound';
+import NotFound from './Components/NotFound';
 import NavBar from './Components/NavBar';
 
 import './App.css'
