@@ -2,7 +2,7 @@ import React, { UseState } from 'react';
 import { UseParams } from 'react-router-dom';
 import axios from 'axios';
 
-const updatePwr = () => {
+const UpdatePwr = () => {
 
    const [password, setpassword] = UseState("");
    const [cnfpassword, setcnfpassword] = UseState("");
@@ -24,6 +24,7 @@ const updatePwr = () => {
           "cnfpassword": cnfpassword
         }
       );
+       console.log(res.data);
       alert("Password Updated Successfully");
     } catch (error) {
       alert(`Password or Email is incorrect${error}`);
@@ -46,4 +47,4 @@ const updatePwr = () => {
   )
 }
 
-export default updatePwr
+export default UpdatePwr
