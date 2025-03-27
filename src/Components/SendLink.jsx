@@ -17,7 +17,7 @@ const sendLink = () => {
       );
       alert("Reset Link send to the email address");
     } catch (error) {
-      alert("Email Not Exists Please Sign Up");
+      alert(`Email Not Exists Please Sign Up${error}`);
     }
   };
 
